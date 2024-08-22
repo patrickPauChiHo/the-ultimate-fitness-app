@@ -72,9 +72,7 @@ function Generator(props) {
               }}
               className={
                 "bg-slate-950 border  duration-200 px-4 hover:border-blue-600 py-3 rounded-lg " +
-                (workout === poison
-                  ? " border-blue-600 text-slate-950 bg-slate-100"
-                  : " border-blue-400")
+                (workout === poison ? " border-blue-600" : " border-blue-400")
               }
               key={index}
             >
@@ -141,9 +139,7 @@ function Generator(props) {
               }}
               className={
                 "bg-slate-950 border  duration-200 px-4 hover:border-blue-600 py-3 rounded-lg " +
-                (scheme === goal
-                  ? " border-blue-600 text-slate-950 bg-slate-100"
-                  : " border-blue-400")
+                (scheme === goal ? " border-blue-600" : " border-blue-400")
               }
               key={index}
             >
